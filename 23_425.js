@@ -1,4 +1,4 @@
-//  num1_ 스왑하는 함수
+ㅋ//  num1_ 스왑하는 함수
 
 function swap(a, b){
     let room = a;
@@ -30,8 +30,20 @@ function getLast(arr) {
     getLast(testArr);
     console.log(getLast(testArr));
     
+// num_4 객체 매소드를 사용하는 함수
 
-
+    const calculator = {
+            add: function(a, b){
+                return a+b;
+            },
+            subtract: function(a, b){
+                return a - b;
+            }
+        }
+        ;
+    console.log(calculator.add(3, 4));
+    console.log(calculator.subtract(5, 2));
+        
 
 
 
@@ -62,11 +74,5 @@ function sumArrayElement(arr){
     
 
 
-// while을 사용한 반복문 
 
-let i = 0;
-while (i < 10) {
-    console.log(i);
-    i++;
-}
-i(0);
+
